@@ -1,0 +1,81 @@
+@charset "utf-8";
+@import url("reset.css");
+/**/
+body { font-family:Verdana, Geneva, sans-serif; font-size:15px; color:#393a3a; min-width:1200px; background-color:#060f11}
+html{-webkit-text-size-adjust: none;}
+li a { display:block; cursor:pointer; color:#393a3a;}
+.wrapper { width:1000px; margin:0 auto; }
+#goTop { position: absolute; color:#000; top:1000px; right:-35px; cursor:pointer; width:40px; height:100px; z-index:90; background:url(../images/base/goTop.png) no-repeat; text-indent:-9999px; }
+.LOGIN #goTop { right:102px;}
+/*內容*/
+#content { clear:both; overflow:hidden; padding-bottom:95px; background-color:#fff;}
+/*----------------------------------------*/
+#leftBox { width:748px; float:left; position:relative;  margin:0 10px 0 0; padding-bottom:10px; }
+#leftBox .wrapper { width:100%; margin:0 auto;}
+#rightBox { float:right; width:240px; font-size:15px; background:url(../images/base/rightBoxBG.jpg) repeat-y; overflow:hidden; padding:0; margin:0;}
+/**/
+
+/*----------------------------------------*/
+#bottomBox { width:1000px; clear:both; margin:0 auto 20px;}
+
+/*footer----------------------*/
+#footer {clear:both;}
+#footer .wrapper { width:100%;}
+#footer .menu { height:40px; padding-top:20px; text-align:center; background:url(../images/base/footerBG01.jpg) center top;}
+#footer .menu em a { color:#676767; letter-spacing:2px; padding:3px 7px; text-shadow: 1px 1px #eee; font-size:13px;}
+#footer .menu em a:hover { border-bottom:1px dotted #fff; position:relative; top:1px;}
+#footer .copyright { height:76px; background:url(../images/base/footerBG02.jpg) center top;}
+/**/
+.btn01 { display:block; width:63px; height:22px; line-height:22px; background:url(../images/base/btn01.png) no-repeat; color:#FFF; text-align:center; }
+.btn01:hover { background-position:left bottom; }
+.btn01:active { position:relative; top:1px; }
+/**/
+.btn03, .btn04, .btn05 { display:block; padding:6px 15px; border-radius:5px; background:url(../images/base/btnBG03.jpg) repeat; color:#FFF; text-align:center;  cursor:pointer;}
+.btn03:hover, .btn04:hover, .btn05:hover { background-position:left bottom; }
+.btn03:active, .btn04:active, .btn05:active { position:relative; top:1px; }
+/**/
+.btn04 { background:url(../images/base/btnBG04.jpg) repeat;}
+.btn05 { background:url(../images/base/btnBG05.jpg) repeat;}
+/*星星跟價錢*/
+.starBar { float:left; position:relative; width:80px; height:18px;}
+.starBar span { position:absolute; height:15px; text-indent:-9999px; background: no-repeat left center;}
+.starBar .greyStar{ width:75px; background-image:url(../images/item/starGray.png);}
+.starBar .yellowStar{ width:45px; background-image:url(../images/item/starYellow.png);}
+.prize { float:left; width:80px; color:#54a200; font-size:16px; font-weight:bold; padding-bottom:5px;}
+
+/**/
+.tip h2 { font-size:16px; padding:0 0 6px;}
+.tip p { font-size:13px; clear:both; margin-bottom:6px; line-height:1.5; max-height:55px; overflow:hidden;}
+.tip ol { font-size:10px; font-size:11px!important; font-size:11px\9; clear:both; padding:5px; overflow:hidden; margin-bottom:8px; border-top:1px #eee solid; border-bottom:1px #eee solid;}
+.tip ol li { float:left; height:13px; line-height:13px; margin-bottom:2px; padding:0 4px 0 2px;}
+.tip ol li.QQ { float:right; padding-right:0;}
+.download { width:auto; background:url(../images/base/btnBG01.jpg) repeat-x; color:#FFF; padding:5px 8px; text-align:center; letter-spacing:3px; cursor:pointer;}
+.download:hover {  position:relative; top:1px; background:url(../images/base/btnBG01.jpg) repeat-x;}
+
+/**/
+.pageJump { text-align:center; font-size:12px; letter-spacing:1px; padding:10px 0 10px; border-top:1px dashed #bbbbbb; border-bottom:1px dashed #bbbbbb;}
+.pageJump span,.pageJump em { padding:4px 8px; cursor:pointer;}
+.pageJump em:hover { background-color:#a4a4a4; color:#FFF; border-radius:5px;}
+.pageJump input { width:25px; text-align:center; margin:0 5px; border-radius:5px; font-family:Verdana, Geneva, sans-serif;}
+.pageJump .yes { background-color:#6e6e6e; color:#FFF; border-radius:5px;}
+
+/*白框*/
+.WT01, .WT03, .WT07, .WT09 { width:20px; height:20px;}
+.WT01 { background-image:url(../images/base/WT01.png);}
+.WT02 { background-image:url(../images/base/WT02.png);}
+.WT03 { background-image:url(../images/base/WT03.png);}
+.WT04 { background-image:url(../images/base/WT04.png);}
+.WT05 { background-color:#fff;}
+.WT06 { background-image:url(../images/base/WT06.png);}
+.WT07 { background-image:url(../images/base/WT07.png);}
+.WT08 { background-image:url(../images/base/WT08.png);}
+.WT09 { background-image:url(../images/base/WT09.png);}
+
+/**/
+.tableStyle01 { font-size:13px;}
+.tableStyle01 thead tr{ background:url(../images/base/tableTopBG.jpg) repeat-x; height:45px;}
+.tableStyle01 tbody tr{ background:url(../images/base/tableTrBG01.jpg) repeat-x; height:54px;}
+.tableStyle01 tbody tr:hover { background:url(../images/base/tableTrBG02.jpg) repeat-x;}
+.tableStyle01 td { padding:0 6px; }
+
+textarea {resize: none;}

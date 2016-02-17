@@ -1,0 +1,26 @@
+/*
+ * CSS Styles that are needed by jScrollPane for it to operate correctly.
+ *
+ * Include this stylesheet in your site or copy and paste the styles below into your stylesheet - jScrollPane
+ * may not operate correctly without them.
+ */
+
+.jspContainer { overflow:hidden; position:relative; }
+.jspPane { position:absolute; }
+.jspVerticalBar { position:absolute; top:0; right:0; width:30px; height:100%; background:none;}
+.jspVerticalBar * { margin:0; padding:0; }
+
+/*¨÷¶bBAR*/
+.jspTrack { background: url(../images/Track.png) repeat center top #FFC; position: relative; }
+/*¨÷¶b*/
+.jspDrag { background: url(../images/Drag.png) no-repeat center center #F60; position: relative; top: 0; left: 0; cursor: pointer; height:30px;}
+
+/* Yuk! CSS Hack for IE6 3 pixel bug :( */
+* html .jspCorner { margin: 0 -3px 0 0; }
+
+/*¤º®e®Ø*/
+#content { border:#000 1px solid; width:1000px; height:800px; padding:20px;}
+.Page { position:relative; width:600px; height:500px; border-top: #CCC 10px solid; border-bottom:#aaa 10px solid;  overflow:hidden; margin:auto;}
+.scroll-pane { width:auto; height:100%;}
+
+em { display:inline-block; padding:15px 20px; cursor:pointer; font-style:normal; border:#999 1px solid; margin-bottom:10px; }
