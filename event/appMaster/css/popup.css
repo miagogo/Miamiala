@@ -1,6 +1,0 @@
-@charset "utf-8";
-.outBox {background:url(../images/base/ohNo.png) no-repeat; width:454px; height:311px; margin:0 auto;}
-.inBox {position:relative; width:454px; height:311px;}
-.download {display:block; width:183px; height:80px; background:url(../images/base/noNO_download.jpg) no-repeat; position:absolute; left:250px; top:170px; text-indent:-9999px;}
-.download:hover { background-position:left bottom;}
-.download:active { top:171px;}
